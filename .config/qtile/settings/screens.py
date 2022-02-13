@@ -1,6 +1,3 @@
-# Antonio Sarosi
-# https://youtube.com/c/antoniosarosi
-# https://github.com/antoniosarosi/dotfiles
 
 # Multimonitor support
 
@@ -12,7 +9,7 @@ import subprocess
 
 
 def status_bar(widgets):
-    return bar.Bar(widgets, 24, opacity=0.9)
+    return bar.Bar(widgets, 24, opacity=0.75)
 
 
 screens = [Screen(top=status_bar(primary_widgets))]

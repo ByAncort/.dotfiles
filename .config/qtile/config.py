@@ -1,10 +1,6 @@
 # Qtile Config File
 # http://www.qtile.org/
 
-# Antonio Sarosi
-# https://youtube.com/c/antoniosarosi
-# https://github.com/antoniosarosi/dotfiles
-
 
 from libqtile import hook
 
@@ -31,6 +27,6 @@ dgroups_app_rules = []
 follow_mouse_focus = True
 bring_front_click = False
 cursor_warp = True
-auto_fullscreen = True
+auto_fullscreen = False
 focus_on_window_activation = 'urgent'
 wmname = 'LG3D'

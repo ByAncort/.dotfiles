@@ -1,6 +1,3 @@
-# Antonio Sarosi
-# https://youtube.com/c/antoniosarosi
-# https://github.com/antoniosarosi/dotfiles
 
 from libqtile import layout
 from libqtile.config import Match
@@ -16,12 +13,11 @@ layout_conf = {
 }
 
 layouts = [
-    layout.Max(),
-    layout.MonadTall(**layout_conf),
-    layout.MonadWide(**layout_conf),
+    # layout.MonadWide(**layout_conf),
     layout.Bsp(**layout_conf),
-    layout.Matrix(columns=2, **layout_conf),
     layout.RatioTile(**layout_conf),
+    layout.Max(), # layout.MonadTall(**layout_conf),
+   # layout.Matrix(columns=2, **layout_conf),
     # layout.Columns(),
     # layout.Tile(),
     # layout.TreeTab(),
