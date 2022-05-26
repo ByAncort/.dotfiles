@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "${cyan} [*] Instalando dependencias ${end}"
+echo -e "${cyan} [*] Instalando aplicaciones necesarias ${end}"
 
 
 #instalando aplicaciones necesarias
